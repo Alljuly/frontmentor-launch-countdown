@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer>
       <div className="hills">
-        <img src={hills} width="1325" />
+        <img src={hills}  />
       </div>
     </footer>
   );
