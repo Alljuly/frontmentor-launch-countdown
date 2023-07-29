@@ -1,0 +1,39 @@
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+
+.countTimer {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  text-transform: uppercase;
+}
+
+.component {
+  background-color: hsl(235, 16%, 14%);
+  font-size: 2rem;
+  color: hsl(345, 95%, 68%);
+}
+.typeTime {
+  color: hsl(236, 21%, 26%);
+}
+
+span {
+  color: hsl(0, 0%, 100%);
+
+  color: hsl(235, 16%, 14%);
+  color: hsl(234, 17%, 12%);
+}
