@@ -30,9 +30,9 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- React + TypeScript + Vite
+- [React](https://reactjs.org/) - TS library
 
-### Praticed
+### What I praticed
 
 ```css
 span {

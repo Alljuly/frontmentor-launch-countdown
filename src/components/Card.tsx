@@ -20,20 +20,29 @@ function Card(props: Array<number>) {
   return (
     <div className="countTimer">
       <div className="card">
-        <div className="component">{timer.days}</div>
-        <div className="typeTime">days</div>
+        <div className="component">
+          <span>{timer.days}</span>
+        </div>
+        <p className="typeTime">days</p>
       </div>
       <div className="card">
-        <div className="component"> {timer.hours} </div>
-        <div className="typeTime">hours</div>
+        <div className="component">
+          <span>{timer.hours}</span>{" "}
+        </div>
+        <p className="typeTime"> hours</p>
       </div>
       <div className="card">
-        <div className="component"> {timer.minuts} </div>
-        <div className="typeTime">minuts</div>
+        <div className="component">
+          <span>{timer.minuts}</span>{" "}
+        </div>
+        <p className="typeTime">minuts</p>
       </div>
       <div className="card">
-        <div className="component"> {timer.seconds}</div>
-        <div className="typeTime">seconds</div>
+        <div className="component">
+          {" "}
+          <span>{timer.seconds}</span>
+        </div>
+        <p className="typeTime">seconds</p>
       </div>
     </div>
   );

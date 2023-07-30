@@ -2,7 +2,7 @@ import React from "react";
 
 function Title() {
   return (
-    <div>
+    <div className="headTitle">
       <h2>We're launching soon Days Hours Minutes Seconds</h2>
     </div>
   );

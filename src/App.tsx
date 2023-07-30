@@ -3,8 +3,9 @@ import Card from "./components/Card.tsx";
 
 import { useState } from "react";
 
-import "../public/style.css";
-import "./App.css";
+import "./style.css";
+
+import Footer from "./components/Footer.tsx";
 
 function App() {
   const date = new Date().getTime();
@@ -19,8 +20,11 @@ function App() {
 
   return (
     <>
-      <Title />
-      <Card timer={time} />
+      <div className="appContent">
+        <Title />
+        <Card timer={time} />
+        <Footer />
+      </div>
     </>
   );
 }
