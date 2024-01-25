@@ -1,7 +1,7 @@
-function Card(props: Array<number>) {
+function Card(props:any) {
   const d = new Date("August 18, 2023 03:24:00");
 
-  const timeGap = d.getTime() - props.timer;
+  const timeGap = d.getTime() - props.time;
 
   console.log(timeGap);
 

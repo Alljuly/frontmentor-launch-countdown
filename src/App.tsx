@@ -22,7 +22,7 @@ function App() {
     <>
       <div className="appContent">
         <Title />
-        <Card timer={time} />
+        <Card time={time} />
         <Footer />
       </div>
     </>
